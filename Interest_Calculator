@@ -1668,4 +1668,7 @@ function computeLoan(){
   [::::::::::::::      ::::::::::::::]
   [[[[[[[[[[[[[[[      ]]]]]]]]]]]]]]]
 
+
+
+The whole package will be compiled in cordova webview
 -->
