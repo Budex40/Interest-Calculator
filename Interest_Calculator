@@ -5,6 +5,19 @@
     <meta name="Author" content="Talabi Olabode Folorunso" />
     <title>Naija Interest Rate Calculator</title>
     <style>
+    .footer{
+       clear:both;
+       background-color:rgba(192, 192, 192,0.7);
+       border-radius:4px;
+       text-align:center;
+       width:80%;
+    }
+
+    #container{padding-right:15px;
+      padding-left:15px;
+      margin-right:auto;
+      margin-left:auto;
+    }
       .bodysturvs{
         border : 4px ridge black;
         border-radius: 10px;
@@ -1621,7 +1634,7 @@ function computeLoan(){
 }
     </script>
   </head>
-  <body class="mainbody">
+  <body class="mainbody" id="container">
     <div class="aboki">
 <center>Naija Interest Rate Calculator</center>
     </div>
@@ -1640,7 +1653,7 @@ function computeLoan(){
     <h2 id="payment"></h2>
 <br>
 <br>
-<div class="mine">
+<div class="mine" id="footer">
 <span style="font-style:oblique;font-stretch:ultra-expanded;">Developed by Talabi Olabode Folorunso</span>
 </div>
 
@@ -1668,7 +1681,4 @@ function computeLoan(){
   [::::::::::::::      ::::::::::::::]
   [[[[[[[[[[[[[[[      ]]]]]]]]]]]]]]]
 
-
-
-The whole package will be compiled in cordova webview
 -->
